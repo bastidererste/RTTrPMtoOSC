@@ -1,8 +1,9 @@
 # RTTrPMtoOSC
 
 ## Usage 
-
-#### $ python RTTrPMtoOSC.py [-h] [-oscIP OSC_IP] [-oscPort OSC_PORT] [-udpIP UDP_IP] [-udpPort UDP_PORT]
+```
+$ python RTTrPMtoOSC.py [-h] [-oscIP OSC_IP] [-oscPort OSC_PORT] [-udpIP UDP_IP] [-udpPort UDP_PORT]
+```
 
 optional arguments:
 
@@ -13,13 +14,10 @@ optional arguments:
     -udpPort UDP_PORT  port of tracking server
 
 ## Usage example
-
-#### $ python RTTrPMtoOSC.py -oscIP 127.0.0.1 -oscPort 9000 -udpIP 192.168.8.102 -udpPort 24220
 ```
+$ python RTTrPMtoOSC.py -oscIP 127.0.0.1 -oscPort 9000 -udpIP 192.168.8.102 -udpPort 24220
 RTTrPM to OSC conversion started on 192.168.8.102 port 24220 to 127.0.0.1 port 9000
 ```
-
-
 
 
 ## OSC address pattern
