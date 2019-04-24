@@ -1,6 +1,6 @@
 # RTTrPMtoOSC
 
-usage: RTTrPtoOSC.py [-h] [-oscIP OSC_IP] [-oscPort OSC_PORT] [-udpIP UDP_IP] [-udpPort UDP_PORT]
+usage: RTTrPMtoOSC.py [-h] [-oscIP OSC_IP] [-oscPort OSC_PORT] [-udpIP UDP_IP] [-udpPort UDP_PORT]
 
 optional arguments:
   -h, --help         show this help message and exit
