@@ -45,3 +45,7 @@ A trackable with the name "beacon12" will result in a centroid OSC messages of t
 python3, [python-osc](https://pypi.org/project/python-osc/)
 
 Tested on Windows 10 and macOS 10.14.2
+
+### Thanks
+
+Based on the python stubs found in https://github.com/CAST-Software/RTTrP-Reader
