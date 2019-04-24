@@ -16,11 +16,9 @@ optional arguments:
 
 for the object "car1"
 
-/car1/quaternion 		args: qx, qy, qz, qw
-
-/car1/centroid 			args: x, y, z
-
-/car1/centroidAccVel 	typetag: x, y, z, accel_x, accel_y, accel_z, vel_x, vel_y, vel_z
-
-/car1/euler 			typetag: roll, pitch, yaw, roll_degree, pitch_degree, yaw_degree
-
+|PacketModule| address pattern               | args           |
+|------| -------------------- |:-------------:| 
+|Centroid Positioin|/{trackableName}/centroid       | x, y, z     | 
+|Centroid Acceleration and Velocity|/{trackableName}/centroidAccVel | x, y, z, accel_x, accel_y, accel_z, vel_x, vel_y, vel_z     |
+|Euler|/{trackableName}/euler | roll, pitch, yaw, roll_degree, pitch_degree, yaw_degree    |
+|Quaternion |/{trackableName}/quaternion     | qx, qy, qz, qw |
