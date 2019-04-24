@@ -2,7 +2,7 @@
 
 ## Usage 
 ```
-$ python RTTrPMtoOSC.py [-h] [-oscIP OSC_IP] [-oscPort OSC_PORT] [-udpIP UDP_IP] [-udpPort UDP_PORT]
+$ python RTTrPMtoOSC.py [-h] [-udpIP UDP_IP] [-udpPort UDP_PORT] [-oscIP OSC_IP] [-oscPort OSC_PORT] 
 ```
 
 optional arguments:
@@ -15,7 +15,7 @@ optional arguments:
 
 ## Usage example
 ```
-$ python RTTrPMtoOSC.py -oscIP 127.0.0.1 -oscPort 9000 -udpIP 192.168.8.102 -udpPort 24220
+$ python RTTrPMtoOSC.py -udpIP 192.168.8.102 -udpPort 24220 -oscIP 127.0.0.1 -oscPort 9000
 ```
 
 
