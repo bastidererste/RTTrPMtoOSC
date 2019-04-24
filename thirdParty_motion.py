@@ -80,6 +80,9 @@ class RTTrPM():
 			eul_msg.add_arg(self.eulerMod.getValues().R1)
 			eul_msg.add_arg(self.eulerMod.getValues().R2)
 			eul_msg.add_arg(self.eulerMod.getValues().R3)
+			eul_msg.add_arg(self.eulerMod.getValues().R1*57.2957795)
+			eul_msg.add_arg(self.eulerMod.getValues().R2*57.2957795)
+			eul_msg.add_arg(self.eulerMod.getValues().R3*57.2957795)
 			bundle.add_content(eul_msg.build())
 
 		if self.quatMod:
