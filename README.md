@@ -1,5 +1,5 @@
 # RTTrPMtoOSC
-RTTrPM is part of the RTTrP trtacking protocol used by BlackTrax, Disguise and many other realtime software and media servers to send/recive object tracking data. The RTTrPMtoOSC bridge brings this robust tracking protocol to applications that until now have no direct support for RTTrP, like Ventuz, processing or in generall all ohter applications that support OSC.
+RTTrPM is part of the RTTrP trtacking protocol used by BlackTrax, Disguise and many other realtime software and media servers to send/recive object tracking data. The RTTrPMtoOSC bridge brings this robust tracking protocol to applications that until now have no direct support for RTTrP, like Ventuz, processing or in generell all other applications that support OSC.
 
 ## Usage 
 ```
