@@ -1,6 +1,6 @@
 # RTTrPMtoOSC
 
-usage: RTTrPMtoOSC.py [-h] [-oscIP OSC_IP] [-oscPort OSC_PORT] [-udpIP UDP_IP] [-udpPort UDP_PORT]
+usage: python RTTrPMtoOSC.py [-h] [-oscIP OSC_IP] [-oscPort OSC_PORT] [-udpIP UDP_IP] [-udpPort UDP_PORT]
 
 optional arguments:
   -h, --help         show this help message and exit
@@ -9,7 +9,8 @@ optional arguments:
   -udpIP UDP_IP      ip of tracking server
   -udpPort UDP_PORT  port of tracking server
 
-OSC address pattern
+
+## OSC address pattern
 
 /{objectName}/{module}
 
