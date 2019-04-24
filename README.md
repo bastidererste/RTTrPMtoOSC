@@ -16,7 +16,6 @@ optional arguments:
 ## Usage example
 ```
 $ python RTTrPMtoOSC.py -oscIP 127.0.0.1 -oscPort 9000 -udpIP 192.168.8.102 -udpPort 24220
-RTTrPM to OSC conversion started on 192.168.8.102 port 24220 to 127.0.0.1 port 9000
 ```
 
 
@@ -35,4 +34,12 @@ RTTrPM to OSC conversion started on 192.168.8.102 port 24220 to 127.0.0.1 port 9
 
 ## OSC example
 A trackable with the name "beacon12" will result in a centroid OSC messages of the form "/beacon12/centroid"
+
+## Dependencies
+
+python-osc [PiPy - python-osc]https://pypi.org/project/python-osc/
+
+```
+$ pip install python-osc
+```
 
