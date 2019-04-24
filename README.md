@@ -37,7 +37,7 @@ A trackable with the name "beacon12" will result in a centroid OSC messages of t
 
 ## Dependencies
 
-python-osc [PiPy - python-osc]https://pypi.org/project/python-osc/
+python-osc [PiPy - python-osc](https://pypi.org/project/python-osc/)
 
 ```
 $ pip install python-osc
