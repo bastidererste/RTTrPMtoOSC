@@ -11,8 +11,8 @@ optional arguments:
     -h, --help         show this help message and exit
     -oscIP OSC_IP      ip of OSC client
     -oscPort OSC_PORT  port of OSC client
-    -udpIP UDP_IP      ip of tracking server
-    -udpPort UDP_PORT  port of tracking server
+    -udpIP UDP_IP      ip of network adapter to listen for tracking data
+    -udpPort UDP_PORT  port where to listen for tracking data
 
 ## Usage example
 ```
