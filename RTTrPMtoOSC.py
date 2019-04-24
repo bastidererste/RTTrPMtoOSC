@@ -10,7 +10,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("-oscIP", dest='OSC_IP', default="127.0.0.1",help="ip of OSC client")
 parser.add_argument("-oscPort", dest='OSC_PORT', default=9000, type=int, help="port of OSC client")
-parser.add_argument("-udpIP", dest='UDP_IP', default="192.168.8.102", help="ip of tracking server")
+parser.add_argument("-udpIP", dest='UDP_IP', default="127.0.0.1", help="ip of tracking server")
 parser.add_argument("-udpPort",dest='UDP_PORT',  type=int, default=24220, help="port of tracking server")
 args = parser.parse_args()
 
