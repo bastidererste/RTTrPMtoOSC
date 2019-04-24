@@ -12,7 +12,7 @@ optional arguments:
 
 ## OSC address pattern
 
-/{objectName}/{module}
+/ {trackableName} / {module}
 
 for the object "car1"
 
